@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #05070e;
+  color: #f1f5f9;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+}
+
+.glass-panel {
+  background: rgba(11, 17, 32, 0.84);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(224, 90, 51, 0.24);
+}
